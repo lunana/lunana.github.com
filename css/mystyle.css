@@ -1,0 +1,86 @@
+body {
+    background-color: #eee;
+
+}
+
+
+
+.navbar-inverse .navbar-inner {
+    background-color: #2b2b2b;
+    background-image: none;
+}
+
+.navbar-inner .container {
+    background-color: none;
+}
+
+.brand {
+    float: right !important;
+    font-size: 14px !important;
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+a:hover {
+    color: #1b1b1b;
+    text-decoration: underline
+}
+
+
+.mydiv {
+    position:relative;
+    width: 14em; height: 14em;
+    -webkit-border-radius: 7em;
+    -moz-border-radius: 7em;
+    color: #fff;
+    border: 2px;
+    border-color: #fff;
+    text-align: center;
+    margin-top: 4.5em;
+}
+
+.mytext{
+    position:absolute;
+    text-align: center;
+    top:40%;
+    left:30%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.blue {background-color: #007899;}
+.red {background-color: #990b00;}
+.green {background-color: #129900;}
+.yellow {background-color: #ffcc00;}
+
+
+#aboutme{
+    background-color: #007899;
+    height: 500px;
+    color: #fff;
+    padding: 20px;
+}
+
+#blog{
+    background-color: #990b00;
+    height: 500px;
+    color: #fff;
+    padding: 20px;
+}
+
+#experience{
+    background-color: #129900;
+    height: 500px;
+    color: #fff;
+    padding: 20px;
+}
+
+#connect{
+    background-color: #ffcc00;
+    height: 500px;
+    color: #fff;
+    padding: 20px;
+}
