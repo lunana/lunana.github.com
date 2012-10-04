@@ -1,9 +1,21 @@
 body {
     background-color: #eee;
-
 }
 
+a {
+    color: #fff;
+    text-decoration: none
+}
 
+a:hover {
+    color: #1b1b1b;
+    text-decoration: underline
+}
+
+h4{
+    margin-top: 0;
+    line-height: 250%;
+}
 
 .navbar-inverse .navbar-inner {
     background-color: #2b2b2b;
@@ -18,17 +30,6 @@ body {
     float: right !important;
     font-size: 14px !important;
 }
-
-a {
-    color: #fff;
-    text-decoration: none
-}
-
-a:hover {
-    color: #1b1b1b;
-    text-decoration: underline
-}
-
 
 .mydiv {
     position:relative;
@@ -55,7 +56,6 @@ a:hover {
 .red {background-color: #990b00;}
 .green {background-color: #129900;}
 .yellow {background-color: #ffcc00;}
-
 
 #aboutme{
     background-color: #007899;
