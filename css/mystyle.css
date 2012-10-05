@@ -84,3 +84,14 @@ h4{
     color: #fff;
     padding: 20px;
 }
+
+.thumbnail{
+    background: rgb(54, 25, 25);
+    background: rgba(54, 25, 25, .3);
+    border: 0;
+    padding-top: 10px;
+
+}
+.thumbnail h3, p {
+    padding-left: 8px;
+}
