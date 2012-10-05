@@ -5,34 +5,14 @@ title: Luna Na
 
 <div class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="navbar-inner">
+
         <div class="container">
 
-            <!-- <a href="#" id="footbar" class="btn btn-inverse" rel="popover"
-           data-content="It's so simple to create a tooltop for my website!"
-           data-original-title="Popover">Quick Menu</a>-->
-
-
-            <a class="brand" href="#">Luna Na &copy; 2012</a>
-
-
-            <!--<div class="btn-group">-->
-            <!--<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">-->
-            <!--MyProfile-->
-            <!--<span class="caret"></span>-->
-            <!--</a>-->
-            <!--<ul class="dropdown-menu">-->
-            <!--<li class=""><a href="#aboutme">About me</a></li>-->
-            <!--<li class=""><a href="#blog">Blog</a></li>-->
-            <!--<li class=""><a href="#experience">Experience</a></li>-->
-            <!--<li class=""><a href="#connect">Connect</a></li>-->
-            <!--</ul>-->
-            <!--</div>-->
-            <ul class="nav">
-                <li><a href="#">PM & UX Designer</a></li>
-
-            </ul>
+             <a class="brand" href="#">Luna Na &copy; 2012</a>
+            <div><a href="javascript:void(0)" onclick="goto_top()"  class="gotop"><img src="img/gotop.png" width="32" height="32"></a></div>
         </div>
     </div>
+
 </div>
 
 <!--Top navigation-->
@@ -41,7 +21,7 @@ title: Luna Na
         <div class="container">
             <h1>I'm Luna Na</h1>
             <hr/>
-            <p>A <span style="color: blue;">Project Manager</span> in the office & A <span style="color: #a52a2a;">UX Designer</span>
+            <p>A <a href="#aboutme" class="textpm">Project Manager</a> in the office & A <a href="#aboutme" class="textux">UX Designer</a>
                 at home</p>
 
 
@@ -74,16 +54,18 @@ title: Luna Na
 </div>
 
 <!--content-->
+
 <div id="aboutme">
 
 
     <div class="container">
         <h2>Who am I?</h2>
         <br/><br/>
+
         <div class="tabbable tabs-left">
             <ul class="nav nav-tabs">
                 <li class="active"><a href="#lA" data-toggle="tab"><h3>Project Manager</h3></a></li>
-                <li class=""><a href="#lB" data-toggle="tab"><h3>UX Designer</h3></a></li>
+                <li class=""><a href="#lB" id="#LB" data-toggle="tab"><h3>UX Designer</h3></a></li>
                 <li class=""><a href="#lC" data-toggle="tab"><h3>Backpacker</h3></a></li>
             </ul>
             <div class="tab-content">
@@ -94,74 +76,53 @@ title: Luna Na
                         I'm doing the same as the most people,<br/>
                         working in the office.<br/>
                         And <a href="http://cn.linkedin.com/in/lunana2008" target="_blank" class="text-warning">I am
-                            professional</a>.</h4>
+                        professional</a>.</h4>
 
                 </div>
                 <div class="tab-pane" id="lB">
                     <h4>I am an amateur UX Designer. <br/>
                     </h4>
-<P>I'm doing a few small projects. It's fun and easy way to learn something new. <br/>
-I'm expecting to come out some interesting and useful ideas. Let's guess what's next!</P>
+
+                    <P>I'm working on a few small projects. It's fun. <br/>
+                        I'm expecting to come out some interesting and useful ideas. Guess what's next!</P>
                     <ul class="thumbnails">
                         <li class="span3">
                             <div class="thumbnail">
                                 <img src="img/packingcheck.jpg" alt="" width="200" height="200">
+
                                 <h3>Packing Check</h3>
-                                <p>Have you ever forgotten taking necessary supply experience? <br/>If yes, it must be very useful iPhone app for you! <br/>Get ready before going out. </p>
+
+                                <p>Have you ever forgotten taking necessary supply experience? <br/>If yes, it must be
+                                    very useful iPhone app for you! <br/>Get ready before going out. </p>
                             </div>
                         </li>
                         <a href="http://elogger.me/" target="_blank">
                             <li class="span3">
-                            <div class="thumbnail">
-                                <img src="img/elogger.jpg" alt="" width="200" height="200">
-                                <h3>eLogger</h3>
-                                <p>It's a web application to log your personal events and retrospective.<br/>Get start to log yourself everywhere!</p>
-                            </div>
-                        </li>
+                                <div class="thumbnail">
+                                    <img src="img/elogger.jpg" alt="" width="200" height="200">
+
+                                    <h3>eLogger</h3>
+
+                                    <p>It's a web application to log your personal events and retrospective.<br/>Get
+                                        start to log yourself everywhere!</p>
+                                </div>
+                            </li>
                         </a>
                         <a href="http://nanfang.me/" target="_blank">
-                        <li class="span3">
-                            <div class="thumbnail">
-                                <img src="img/personalsite.jpg" alt="" width="200" height="200">
-                                <h3>Personal Site</h3>
-                                <p>It's a simple personal homepage. <br/><br/>
-                                   If you have interests on it, check it out.
-                                </p>
-                            </div>
-                        </li>
+                            <li class="span3">
+                                <div class="thumbnail">
+                                    <img src="img/personalsite.jpg" alt="" width="200" height="200">
+
+                                    <h3>Personal Site</h3>
+
+                                    <p>It's a simple personal homepage. <br/><br/>
+                                        If you have interests on it, check it out.
+                                    </p>
+                                </div>
+                            </li>
                         </a>
                     </ul>
-                    <!--<div id="myCarousel1" class="carousel slide">
-                        &lt;!&ndash; Carousel items &ndash;&gt;
-                        <div class="carousel-inner">
-                            <div class="active item">
-                                <img src="img/packingcheck.jpg" alt="" width="800" height="400">
 
-                                <div class="carousel-caption">
-                                    <p>It's a packing check iPhone app.</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/elogger.jpg" alt="" width="800" height="400">
-
-                                <div class="carousel-caption">
-                                    <p>It's an online log tool.</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/personalsite.jpg" alt="" width="800" height="400">
-
-                                <div class="carousel-caption">
-                                    <p>It's a personal homepage.</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        &lt;!&ndash; Carousel nav &ndash;&gt;
-                        <a class="carousel-control left" href="#myCarousel1" data-slide="prev">&lsaquo;</a>
-                        <a class="carousel-control right" href="#myCarousel1" data-slide="next">&rsaquo;</a>
-                    </div>-->
                 </div>
                 <div class="tab-pane" id="lC">
                     <h4>This is my <a href="http://lvtuxd.diandian.com/" target="_blank" class="text-warning">favorite
@@ -176,43 +137,43 @@ I'm expecting to come out some interesting and useful ideas. Let's guess what's 
                         <!-- Carousel items -->
                         <div class="carousel-inner">
                             <div class="active item">
-                                <img src="img/gallery1.jpg" alt="" width="860" height="200">
-
+                                <a href="http://lvtuxd.diandian.com/post/2012-05-12/18765939" target="_blank"><img src="img/gallery1.jpg" alt="" width="860" height="200">
+                                </a>
                                 <div class="carousel-caption">
                                     <p>The sea of clouds of Huangshan in May</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/gallery2.jpg" alt="" width="860" height="200">
-
+                                <a href="http://lvtuxd.diandian.com/post/2012-04-23/18135558" target="_blank"><img src="img/gallery2.jpg" alt="" width="860" height="200">
+                                </a>
                                 <div class="carousel-caption">
                                     <p>Impression of Singapore's China Town</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/gallery3.jpg" alt="" width="860" height="200">
-
+                                <a href="http://lvtuxd.diandian.com/post/2012-04-21/19904157" target="_blank"><img src="img/gallery3.jpg" alt="" width="860" height="200">
+                                </a>
                                 <div class="carousel-caption">
                                     <p>Impression of Sentosa in Singapore</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/gallery4.jpg" alt="" width="860" height="200">
-
+                                <a href="http://lvtuxd.diandian.com/post/2012-04-18/19156756" target="_blank"><img src="img/gallery4.jpg" alt="" width="860" height="200">
+                                </a>
                                 <div class="carousel-caption">
                                     <p>Hiking in Wuyuan on the Tomb-sweeping Festival Holiday</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/gallery5.jpg" alt="" width="860" height="200">
-
+                                <a href="http://lvtuxd.diandian.com/post/2012-04-20/17347775" target="_blank"><img src="img/gallery5.jpg" alt="" width="860" height="200">
+                                </a>
                                 <div class="carousel-caption">
                                     <p>Hiking in the Wutai mountain</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="img/gallery6.jpg" alt="" width="860" height="160">
-
+                                <a href="http://lvtuxd.diandian.com/post/2012-04-16/19973203" target="_blank"><img src="img/gallery6.jpg" alt="" width="860" height="160">
+                                </a>
                                 <div class="carousel-caption">
                                     <p>Through the Khobqi Desert </p>
                                 </div>
@@ -234,17 +195,27 @@ I'm expecting to come out some interesting and useful ideas. Let's guess what's 
 
 
     <div class="container">
-        <h2>What's new in my blog?</h2>
+        <h2>What's new in <a href="http://lunana2008.blogbus.com/" target="_blank">my blog</a>?</h2>
         <br/>
-        <dl>
-            <dt><h3>The PMP series articles (coming soon)</h3></dt>
-            <dd><h4 class="blogh4">After finishing the PMP exam, I am willing to share what I learned during this time. I am sure that it will help others in their work.</h4></dd>
-            <dt><h3>12 Standard Screen Patterns</h3></dt>
-            <dd><h4 class="blogh4">The idea comes from a book called Designing Web Interfaces. I translated for the most of Chinese people to help us to catch up with the world's advanced level. <a href="http://lunana2008.blogbus.com/logs/95742422.html" target="_blank" class="text-warning">Check it out</a> !</h4></dd>
-            <dt><h3>10 Tips for Optimizing Web Form Submission Usability</h3></dt>
-            <dd><h4 class="blogh4">It is also translated. The same reason with 12 patterns. <a href="http://lunana2008.blogbus.com/logs/105671795.html" target="_blank" class="text-warning">Check it out</a> to find useful stuff for you.</h4></dd>
+        <ul>
+            <li>
+            <h3>The PMP series articles <span class="text-warning">(coming soon)</span></h3>
+            </li>
+            <li>
+            <h3><a href="http://lunana2008.blogbus.com/logs/105671795.html" target="_blank" id="webform" rel="popover"
+                   data-content="10 Tips for Optimizing Web Form Submission Usability"
+                   data-original-title="It is translated. I translated for the most of Chinese people to help us to catch up with the world's advanced level.">
+            10 Tips for Optimizing Web Form Submission Usability</a></h3>
+            </li>
+            <li>
+            <h3><a href="http://lunana2008.blogbus.com/logs/95742422.html" target="_blank" id="screenpattern"
+                   rel="popover"
+                   data-content="12 Standard Screen Patterns"
+                   data-original-title="The idea comes from a book called Designing Web Interfaces. I translated for the most of Chinese people to help us to catch up with the world's advanced level. ">12 Standard Screen Patterns</a></h3>
+            </li>
 
-        </dl>
+        </ul>
+
 
     </div>
 </div>
@@ -255,7 +226,8 @@ I'm expecting to come out some interesting and useful ideas. Let's guess what's 
     <div class="container">
         <h2>Timeline in my career</h2>
         <br/>
-        <img src="img/brandicons.png" alt="">
+        <a href="http://cn.linkedin.com/in/lunana2008"
+           target="_blank"><img src="img/brandicons.png" alt=""></a>
         <!--<br/><br/>
         <blockquote class="pull-right">
             <p>Experience is what you get when you didn't get what you wanted.</p>
@@ -269,7 +241,7 @@ I'm expecting to come out some interesting and useful ideas. Let's guess what's 
     <div class="container">
         <h2>How to contact me?</h2>
         <dl class="dl-horizontal">
-<br/>
+            <br/>
             <dt>
             <h4>Email</h4></dt>
             <dd><h4><a href="mailto:lunana2008@gmail.com">lunana2008@gmail.com</a></h4></dd>
@@ -297,9 +269,12 @@ I'm expecting to come out some interesting and useful ideas. Let's guess what's 
         </dl>
     </div>
 </div>
+
 <script>
     $(function () {
-        $('#footbar').tooltip({placement:'top'})
+        $('#screenpattern').tooltip({placement:'bottom'}),
+                $('#webform').tooltip({placement:'right'})
+        $
     });
 </script>
 

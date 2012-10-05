@@ -12,6 +12,24 @@ a:hover {
     text-decoration: underline
 }
 
+a.textpm  {
+    color: blue;
+}
+
+a.textpm :hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+a.textux  {
+    color: #a52a2a;
+}
+
+a.textux :hover {
+    color: #000;
+    text-decoration: underline;
+}
+
 h4{
     margin-top: 0;
     line-height: 230%;
@@ -27,7 +45,6 @@ h4{
 }
 
 .brand {
-    float: right !important;
     font-size: 14px !important;
 }
 
@@ -96,6 +113,8 @@ h4{
     padding-left: 8px;
 }
 
-.blogh4 {
-    padding-left: 40px;
+.gotop{
+    float: right;
+    padding-top: 5px;
+
 }
