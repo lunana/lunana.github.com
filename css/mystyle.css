@@ -53,9 +53,9 @@ h4{
 }
 
 .blue {background-color: #007899;}
-.red {background-color: #990b00;}
-.green {background-color: #129900;}
-.yellow {background-color: #ffcc00;}
+.red {background-color: #8a0B01;}
+.green {background-color: #118c01;}
+.yellow {background-color: #dbb002;}
 
 #aboutme{
     background-color: #007899;
@@ -65,21 +65,21 @@ h4{
 }
 
 #blog{
-    background-color: #990b00;
+    background-color: #8a0B01;
     height: 500px;
     color: #fff;
     padding: 20px;
 }
 
 #experience{
-    background-color: #129900;
+    background-color: #118c01;
     height: 500px;
     color: #fff;
     padding: 20px;
 }
 
 #connect{
-    background-color: #ffcc00;
+    background-color: #dbb002;
     height: 500px;
     color: #fff;
     padding: 20px;
@@ -94,4 +94,8 @@ h4{
 }
 .thumbnail h3, p {
     padding-left: 8px;
+}
+
+.blogh4 {
+    padding-left: 40px;
 }
