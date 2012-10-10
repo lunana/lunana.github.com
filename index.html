@@ -199,7 +199,9 @@ title: Luna Na
         <br/>
         <ul>
             <li>
-            <h3>The PMP series articles <span class="text-warning">(coming soon)</span></h3>
+            <h3><a href="http://lunana2008.blogbus.com/logs/223456311.html" target="_blank"  id="pmp" rel="popover"
+                   data-content="The PMP series articles"
+                   data-original-title="That's what I learned after the PMP training.">The PMP series articles</a> <span class="text-warning">(Keep updating)</span></h3>
             </li>
             <li>
             <h3><a href="http://lunana2008.blogbus.com/logs/105671795.html" target="_blank" id="webform" rel="popover"
@@ -273,7 +275,9 @@ title: Luna Na
 <script>
     $(function () {
         $('#screenpattern').tooltip({placement:'bottom'}),
-                $('#webform').tooltip({placement:'right'})
+                $('#webform').tooltip({placement:'right'},
+                        $('#pmp').tooltip({placement:'top'})
+       )
         $
     });
 </script>
